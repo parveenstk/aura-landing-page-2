@@ -7,6 +7,7 @@ import Paragraph from "./Paragraph"
 import Review from "./Review"
 import Sources from "./Sources"
 import Suggestion from "./Suggestion"
+import Table from "./Table"
 import Text from "./Text"
 import Yellowbox from "./Yellowbox"
 
@@ -19,9 +20,7 @@ function Body({ className }: { className?: string }) {
             <p className="text-center sm:text-left text-lg leading-5 sm:leading-7 sm:text-xl sm:my-8">The basics aren’t enough anymore.<br /> That’s why you need…</p>
             <p className="text-3xl sm:text-4xl text-center font-bold mb-2 sm:py-4">8 Identity Theft Secrets <span className="block sm:inline">No One Is Telling You</span></p>
 
-
             <Paragraph />
-
             <Yellowbox content={boxContent[1]} />
             <ExtraText content={ExtraContent.content1} />
             <ExtraText content={ExtraContent.content2} />
@@ -33,6 +32,7 @@ function Body({ className }: { className?: string }) {
             <ExtraText content={ExtraContent.content7} />
             <ExtraText content={ExtraContent.content8} />
             <ExtraText content={ExtraContent.content9} />
+            <Table />
             <ExtraText content={withOutAura} />
             <Suggestion />
             <AuraBox />

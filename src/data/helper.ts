@@ -620,5 +620,44 @@ export const sourceData = [
     {
         text: "<p class='text-[10px] text-center sm:text-left sm:text-xl sm:py-4 italic mt-1'>60-day money back guarantee is only available for our annual plans purchased through our websites (excludes Amazon) or via our Customer Support team. You may cancel your membership online and request a refund within 60 days of your initial purchase date of an eligible Aura membership purchase.</p>"
     }
-
 ]
+
+export const footerData = {
+    content: {
+        text1: "This is an op ad (opinion advertisement) and not an actual news article, blog, or consumer protection update.",
+        text2: "Any story or person depicted on this site is not actual news. Instead, they are based on the results that some people who have used this product or service have achieved. Any results portrayed on this page and in the comments are illustrative, and may not be the results that you achieve with this product or service. The owners of this page could receive compensation for clicks on or purchase of the product/service featured on this site.",
+        text3: {
+            content: {
+                bold: "MARKETING DISCLOSURE:",
+                text: "This website is a marketplace. As such, the owner has a monetary connection to the product and services advertised on the site. The owner receives payment whenever a qualified lead is referred but that is the extent of it.",
+            }
+        },
+
+        text4: {
+            content: {
+                bold: "ADVERTISING DISCLOSURE: ",
+                text: "This website and the products & services referred to on the site are advertising marketplaces. This website is an op ad and not a news publication. Any photographs of persons used on this site are models. The owner of this site and of the products and services referred to on this site only provides a service where consumers can obtain and compare.",
+            }
+        },
+
+        links : {
+            text1 : "Contact",
+            text2 : "Privacy Policy",
+            text3 : "Terms of Service",
+        }
+    }
+}
+
+export const tableData = [
+    ["", { img: { path: "/images/aura.webp", style: "w-[50px] sm:w-[80px]" } }, { text: ["LifeLock", "Ultimate Plus"] }, { text: ["IdentityForce", "UltraSecure + Credit"] }],
+    ["Free Trials", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["14-day free trial", "available."] }, { img: { path: "/images/fill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: "30 days free." }, { img: { path: "/images/unfill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }],
+    ["Monthly Plan Cost (Individual)", "$15/month", "$34.99/month", "$34.90/month"],
+    ["Annual plan cost (Individual)", "$12/month", "$19.99/month", "~$29.15/month"],
+    ["24/7 U.S.-Based Support", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" } }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" } }, { img: { path: "/images/unfill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }],
+    ["Clear Pricing", { text: ["Transparent pricing:", "no hidden renewal", "fees."] }, { text: ["Price increases by", "~42% after the", "first year.",] }, { text: ["Renewal pricing is", "based on subscription", "rates in effect at that", "time. 10"] }],
+    ["Identity Monitoring", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["Identity Protection", "with Home and Auto", "Title monitoring.",] }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
+    ["Three-bureau Credit Monitoring", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["Available across all", "plans."] }, { img: { path: "/images/fill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }, { img: { path: "/images/fill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }],
+    ["Online Safety Features", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["VPN, AntiVirus,", "Password Manager,", "Anti-Tracking, Ad", "Blocker, and more."] }, { img: { path: "/images/unfill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
+    ["Family Plan With Parental Controls, Child ID Protection", { img: { path: "/images/fill-check.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["5 adults, unlimited", "kids plus Child ID", "Protection, Parental", "Controls, and Safe", "Gaming."] }, { img: { path: "/images/unfill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["2 adults, 5 kids.", "No parental", "controls."] }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["2 adults, unlimited kids.", "No parental controls."] }],
+    ["Social Media Monitoring", { img: { path: "/images/unfill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }, { img: { path: "/images/fill-check-gray.webp", style: "py-1 w-[20px] sm:w-[27px]" } }, { img: { path: "/images/Tilde.webp", style: "py-1 w-[20px] sm:w-[27px]" }, text: ["Dark Web social media", "monitoring only."] }],
+];
